@@ -135,7 +135,15 @@ main{
 
 }
 
+.vermais a{
+    text-decoration: none;
+    color: #471B0C;
+}
 
+.vermais a:hover{
+    /* background-color: #471B0C; */
+    color: #FFE1D6;
+}
 .redondo{
     border-radius: 20em 20em 0 0;
     margin: 5px;
