@@ -1,5 +1,12 @@
-body{
+html, body{
+    height: 100vh;
     background-image: url("../img/bkg.webp");
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    display: flex;
+    flex-direction: column; 
 }
 
 /* header{
@@ -13,7 +20,7 @@ body{
     /* position: relative; */
     /* bottom: 100px; */
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .foto{
@@ -37,7 +44,7 @@ body{
     width: 100%;
     height: 100px;
     background-color: #471B0C;
-    position: absolute;
+    /* position: absolute; */
     z-index: 1;
 
 }
@@ -56,27 +63,37 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+    z-index:2;
+
 }
 .botao{
     background-color: #FFE1D6;
     border: #FFE1D6;
     color: #471B0C;
     border-radius: 50px;
-
+    width: 100%;
     height: 50%;
 }
 
 .botao a{
+    width: 100%;
+    height: 100%;
     text-decoration: none;
     color: #471B0C;
+    font-size: 20px;
 }
 
-.botoes a:hover{
-    background-color: 692712 !important;
-    color: #471B0C !important;
+.botao a:hover{
+    color: #FFE1D6 !important;
+
+}
+.btn:hover{
+    background-color: #692712 !important;
+    color: #FFE1D6;
 }
 .titulo{
     width: 100%;
+    padding-bottom: 5px;
     height: auto;
     background-color: #471B0C;
     color: white;
@@ -87,16 +104,37 @@ body{
     margin: 0 auto;
     color: white;
 }
-#produtos{
-    margin: 0 auto;
-    width: 95%;
-    height: 600px;
-    background-color: white;
-}
 
 main{
     width: 100%;
+    position: relative;
 }
+#produtos{
+    margin: 20px auto;
+    width: 95%;
+    height: 620px;
+    /* background-color: white; */
+}
+ /* .flex{
+    display: flex;
+    flex-wrap: wrap;
+
+ } */
+.btnvermais{
+    margin-top: 20px;
+}
+.vermais{
+    /* margin-top: 20px; */
+    line-height: inherit;
+    background-color: #FFE1D6;
+    border: #FFE1D6;
+    border-radius: 20px;
+    color: #471B0C;
+    font-size: 20px;
+    /* width: 100%; */
+
+}
+
 
 .redondo{
     border-radius: 20em 20em 0 0;
@@ -115,13 +153,80 @@ main{
     font-size: 30px;
 }
 .altura{
-    margin-top: -105px;
+    margin-top: -239px;
     margin-bottom: 0;
 }
 
 .h-100{
     height: 100% !important;
 }
+
+
+#eventos{
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.textoevento{
+    width: 50%;
+    height: 20%;
+    /* border: 1px solid black; */
+    font-size: 30px;
+    margin: 1% auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe1d65e;
+    border-radius: 20px;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    /* font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal; */
+}
+
+
+
+.fotoevento{
+    width: 85%;
+    height: 70%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens{
+    width: 30%;
+    height: 40%;
+    /* border: 1px solid black; */
+    margin: 10px;
+
+
+}
+
+.imagens img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
 @media screen and (max-width: 1000px){
     .nav{
         height: 120px;

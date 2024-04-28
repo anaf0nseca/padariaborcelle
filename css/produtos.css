@@ -1,0 +1,81 @@
+html, body{
+    height: 100vh;
+    background-image: url("../img/bkg.webp");
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: #471B0C;
+    /* position: absolute; */
+    z-index: 1;
+
+}
+
+
+#logo{
+    width: 15%;
+    margin: 10px;
+    margin-right: 0;
+    z-index: 1;
+}
+.botoes{
+    margin: 0;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    z-index:2;
+
+}
+.botao{
+    background-color: #FFE1D6;
+    border: #FFE1D6;
+    color: #471B0C;
+    border-radius: 50px;
+    width: 100%;
+    height: 50%;
+}
+
+.botao a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #471B0C;
+    font-size: 20px;
+}
+
+.botao a:hover{
+    color: #FFE1D6 !important;
+
+}
+.btn:hover{
+    background-color: #692712 !important;
+    color: #FFE1D6;
+}
+
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+footer{
+    width: 100%;
+
+    height: 120px;
+    background-color: #471B0C;
+    color: #FFE1D6;
+    /* position: fixed;
+    bottom: 0;*/
+} 
+.sticky-md-bottom{
+    position: relative;
+}

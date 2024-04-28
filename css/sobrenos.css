@@ -1,0 +1,170 @@
+html, body{
+    height: 100vh;
+    background-image: url("../img/bkg.webp");
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: #471B0C;
+    /* position: absolute; */
+    z-index: 1;
+
+}
+
+
+#logo{
+    width: 15%;
+    margin: 10px;
+    margin-right: 0;
+    z-index: 1;
+}
+.botoes{
+    margin: 0;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    z-index:2;
+
+}
+.botao{
+    background-color: #FFE1D6;
+    border: #FFE1D6;
+    color: #471B0C;
+    border-radius: 50px;
+    width: 100%;
+    height: 50%;
+}
+
+.botao a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #471B0C;
+    font-size: 20px;
+}
+
+.botao a:hover{
+    color: #FFE1D6 !important;
+
+}
+.btn:hover{
+    background-color: #692712 !important;
+    color: #FFE1D6;
+}
+
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+footer{
+    width: 100%;
+
+    height: 120px;
+    background-color: #471B0C;
+    color: #FFE1D6;
+    /* position: fixed;
+    bottom: 0;*/
+} 
+.sticky-md-bottom{
+    position: relative;
+}
+
+
+/* sobre nos */
+.sobre{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+
+
+}
+
+.fototexto{
+    width: 75%;
+    height: calc(1200px / 4);
+    /* border: 1px solid black; */
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.568);
+
+}
+
+.fototexto1{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    width: 75%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+
+.fototexto1 .texto{
+    width: 80%;
+    height: 30%;
+    font-size: 25px;
+    /* font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic; */
+
+}
+.fotosobre1{
+    width: 80%;
+    height: 55%;
+}
+
+.fotosobre1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+.fotosobre{
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid black; */
+
+}
+
+
+
+.fotosobre img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.texto{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px auto;
+    padding: 20px;
+    /* background-color: white; */
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
