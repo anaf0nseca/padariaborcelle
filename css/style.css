@@ -232,6 +232,18 @@ main{
     background-size: cover;
 }
 
+footer{
+    width: 100%;
+
+    height: 120px;
+    background-color: #471B0C;
+    color: #FFE1D6;
+    /* position: fixed;
+    bottom: 0;*/
+} 
+.sticky-md-bottom{
+    position: relative;
+}
 
 
 

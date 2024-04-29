@@ -61,7 +61,19 @@ html, body{
     color: #FFE1D6;
 }
 
+.titulo{
+    width: 100%;
+    padding-bottom: 5px;
+    height: auto;
+    background-color: #471B0C;
+    color: white;
+    text-align: center;
+}
 
+.titulo h1{
+    margin: 0 auto;
+    color: white;
+}
 main{
     width: 100%;
     position: relative;
@@ -78,4 +90,22 @@ footer{
 } 
 .sticky-md-bottom{
     position: relative;
+}
+
+.produtos{
+    width: 65%;
+    height: auto;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.container{
+    margin: 15px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.prod img{
+ height: 180px ;
 }
