@@ -95,17 +95,31 @@ footer{
 .produtos{
     width: 65%;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 auto;
     padding: 15px;
+    background-color: rgba(255, 255, 255, 0.568);
+    
 }
 
 .container{
-    margin: 15px;
+    margin: 15px auto;
     /* display: flex;
     flex-direction: column; */
 }
-
+.prod{
+    text-align: center;
+}
 .prod img{
  height: 180px ;
 }
+
+.categoria {
+    width: 100%;
+    display: inline !important;
+    background-color: #471B0C;
+    color: #FFE1D6;
+    margin: 20px auto;
+    text-align: center;
+}
+
