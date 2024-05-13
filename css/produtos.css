@@ -116,6 +116,7 @@ footer{
 
 .categoria {
     width: 100%;
+    padding: 10px;
     display: inline !important;
     background-color: #471B0C;
     color: #FFE1D6;
