@@ -67,6 +67,9 @@ main{
     position: relative;
 }
 
+
+/* rodape */
+
 footer{
     width: 100%;
 
@@ -78,4 +81,36 @@ footer{
 } 
 .sticky-md-bottom{
     position: relative;
+}
+
+#ctt{
+    margin-left: 2%;
+    padding: 5px;
+    width: 30%;
+    height: 100%;
+    /* background-color: white; */
+    display: flex;
+
+}
+
+.icone{
+    margin: 3% 5% 0 5%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icone p{
+    width: 80%;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.divi{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
